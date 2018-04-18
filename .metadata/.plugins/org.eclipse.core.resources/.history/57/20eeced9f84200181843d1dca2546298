@@ -37,7 +37,7 @@ public void updateTopic(String id, Topic topic) {
 	}
 }
 
-public void deleteTopic(String id) { 
+public void deleteTopic(String id) {
 	topics.removeIf(t->t.getId().equals(id));
 	
 }
